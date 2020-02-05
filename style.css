@@ -1,0 +1,406 @@
+body
+{
+	font-family: Helvetica, sans-serif;
+	height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    max-width: 1200px;
+    margin: auto;
+ }
+
+main
+{
+	
+	flex: 1 1 0;
+	max-width: 66%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+main h1
+{
+	margin-left: 5%;
+	font-size: 45px;
+	margin-bottom: 0px;
+	margin-top: 80px;
+}
+
+main h2
+{
+	font-size: 20px;
+	padding-top: 10px;
+	margin-left: 70px;
+	padding-bottom: 10px;
+
+}
+
+main p
+{
+	margin-left: 5%;
+	
+	
+}
+
+main span {
+	margin-left: 30px;
+}
+
+main strong {
+	color: #404040;
+}
+
+
+
+aside
+{
+	background-color: #feca07;
+	max-width: 33%;
+	flex: 1 1 0;
+	word-break: break-word;
+	display: flex;
+	flex-direction: column;
+	/*height: 1600px;*/
+
+	
+}
+
+
+
+address {
+	text-align: left;
+	margin-left: 20px;
+}
+
+aside section address p {
+
+	margin-left: 32px;
+}
+
+aside section p {
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+
+
+#a-propos
+{
+	flex-grow: 1;
+	
+}
+
+aside h2 
+{
+	background-color: #404040 ;
+	color: #feca07;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+aside .text
+{
+	
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+		
+}
+
+aside section a {
+
+	margin-left: 32px;
+	text-decoration: none;
+}
+
+
+#image
+{
+	margin: auto;
+	margin-top: 15%;
+	margin-bottom: 10%;
+	overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:130px;
+	height:130px;
+	box-shadow: 2px 2px 4px black;
+	
+
+	
+}
+
+.underline
+{
+	border-bottom: 2px solid #feca07;
+	
+}
+
+.underline1
+{
+	border-bottom: 2px solid #feca07;
+	margin-right: 40px;
+	
+	
+}
+
+.fas, .far, .fab
+{
+	padding-right: 10px;
+	padding-left: 5px;
+
+}
+
+.picto
+
+{
+
+	text-align: center;
+	margin-bottom: 20px;
+	
+	
+}
+
+.picto a:visited {
+	color: black;	
+}
+
+.formation{
+	display: flex; 
+	
+	}
+
+.left {
+	margin-top: 20px;
+	margin-left: 50px;
+	flex: 1;
+}
+
+.right {
+	margin-top: 20px;
+	flex: 2;
+}
+
+
+
+.formation .left p {
+	margin-bottom: 250px;
+}
+
+.formation .right p {
+	margin-bottom: 70px;
+	margin-right: 40px;
+}
+
+.text2 {
+	margin-top: 105px;
+}
+
+.experience{
+	display: flex; 
+	
+	}
+
+.experience .left p {
+	margin-bottom: 250px;
+}
+
+.experience .right p {
+	margin-bottom: 70px;
+	margin-right: 40px;
+}
+
+.reco {
+	display: flex;
+	
+}
+
+.textgauche {
+	flex: 1;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.textdroite {
+	flex: 1;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+@media all and (max-width: 1025px)
+{
+    body
+    {
+		width: 100%;
+		flex-direction: column;
+		
+		
+	
+		
+	}
+
+	main {
+
+		max-width: 100%;
+		font-size: 28px;
+
+	}
+
+	main div {
+		width: 100%;
+		margin:auto;
+	}
+	
+
+	main h1 {
+		
+		text-align: center;
+	}	
+	main h2 {
+		
+		font-size: 28px;
+	}
+
+	.dev {
+		text-align: center;
+		font-size: 30px;
+	}
+
+	aside h2 {
+		font-size: 14px
+	}	
+
+	aside {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		max-width: 100%;
+		font-size: 12px;
+	}
+
+	aside div {
+		
+		
+		width: 100%;
+		
+
+	}
+
+	aside section {
+
+		
+		width: 100%;
+	}
+
+	#a-propos
+{
+	flex-grow: 1;
+	
+}
+
+.picto {
+
+	margin-bottom: 14px;
+}
+
+.picto i {
+
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+ .fa-address-card, .fa-phone, .fa-envelope, .fa-linkedin
+{
+	margin-right: 35px;
+
+}
+
+aside section a {
+
+	margin-left: 65px;
+	text-decoration: none;
+}
+
+aside section address p {
+
+	margin-left: 65px;
+	
+}
+
+.formation .left p {
+	margin-bottom: 460px;
+}
+
+.experience .left p {
+	margin-bottom: 460px;
+}
+
+#image
+{
+	margin-top: 4%;
+	margin-bottom: 1%;
+	
+
+}
+
+main h1 {
+
+	display: none;
+}
+
+main .dev {
+
+	display: none;
+}
+
+aside .name_aside {
+
+	text-align: center;
+
+}
+
+aside .name_aside h1 {
+
+	font-size: 25px;
+
+}
+
+aside .name_aside .dev {
+
+	font-size: 19px;
+	
+}
+
+aside .name_aside .dev .underline {
+	
+	border-bottom: 2px solid black;
+}
+
+
+
+
+
+}
+
+@media (min-width:1025px) and (max-width: 3000px)
+{
+	aside .name_aside {
+
+		display: none;
+		
+	}
+}
