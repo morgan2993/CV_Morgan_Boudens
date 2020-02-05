@@ -286,7 +286,8 @@ aside section a {
 		flex-wrap: wrap;
 		flex-direction: row;
 		max-width: 100%;
-		font-size: 12px;
+		font-size: 20px;
+		
 	}
 
 	aside div {
@@ -309,6 +310,16 @@ aside section a {
 	
 }
 
+aside .contact address {
+
+	text-align: center;
+}
+
+
+aside .contact p {
+
+	text-align: center;
+}
 .picto {
 
 	margin-bottom: 14px;
@@ -403,4 +414,6 @@ aside .name_aside .dev .underline {
 		display: none;
 		
 	}
+
+
 }
