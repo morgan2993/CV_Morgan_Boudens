@@ -55,7 +55,7 @@ main strong {
 
 
 
-aside
+.presentation
 {
 	background-color: #feca07;
 	max-width: 33%;
@@ -75,14 +75,15 @@ address {
 	margin-left: 20px;
 }
 
-aside section address p {
+.presentation section address p {
 
 	margin-left: 32px;
 }
 
-aside section p {
+.presentation section p {
 	text-align: left;
 	margin-left: 20px;
+	
 }
 
 
@@ -94,7 +95,7 @@ aside section p {
 	
 }
 
-aside h2 
+.presentation h2 
 {
 	background-color: #404040 ;
 	color: #feca07;
@@ -105,7 +106,7 @@ aside h2
 
 }
 
-aside .text
+.presentation .text
 {
 	
 	margin-left: 50px;
@@ -114,7 +115,7 @@ aside .text
 		
 }
 
-aside section a {
+.presentation section a {
 
 	margin-left: 32px;
 	text-decoration: none;
@@ -277,11 +278,11 @@ aside section a {
 		font-size: 30px;
 	}
 
-	aside h2 {
+	.presentation h2 {
 		font-size: 14px
 	}	
 
-	aside {
+	.presentation {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
@@ -290,7 +291,7 @@ aside section a {
 		
 	}
 
-	aside div {
+	.presentation div {
 		
 		
 		width: 100%;
@@ -298,7 +299,7 @@ aside section a {
 
 	}
 
-	aside section {
+	.presentation section {
 
 		
 		width: 100%;
@@ -310,15 +311,23 @@ aside section a {
 	
 }
 
-aside .contact address {
+.presentation .contact address {
 
 	text-align: center;
+	margin-left: 0;
 }
 
 
-aside .contact p {
+.presentation .contact p {
 
 	text-align: center;
+	margin-left: 0;
+}
+
+.presentation section p {
+
+	padding-left: 0;
+	margin-left: 0;
 }
 .picto {
 
@@ -340,13 +349,13 @@ aside .contact p {
 
 }
 
-aside section a {
+.presentation section a {
 
 	margin-left: 65px;
 	text-decoration: none;
 }
 
-aside section address p {
+.presentation section address p {
 
 	margin-left: 65px;
 	
@@ -378,25 +387,25 @@ main .dev {
 	display: none;
 }
 
-aside .name_aside {
+.presentation .name_aside {
 
 	text-align: center;
 
 }
 
-aside .name_aside h1 {
+.presentation .name_aside h1 {
 
 	font-size: 25px;
 
 }
 
-aside .name_aside .dev {
+.presentation .name_aside .dev {
 
 	font-size: 19px;
 	
 }
 
-aside .name_aside .dev .underline {
+.presentation .name_aside .dev .underline {
 	
 	border-bottom: 2px solid black;
 }
@@ -409,7 +418,7 @@ aside .name_aside .dev .underline {
 
 @media (min-width:1025px) and (max-width: 3000px)
 {
-	aside .name_aside {
+	.presentation .name_aside {
 
 		display: none;
 		
