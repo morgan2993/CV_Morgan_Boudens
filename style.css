@@ -1,3 +1,12 @@
+/*Organisation CSS : 
+	1-Body
+	2-Main
+	3-Presentation
+	4-Responsive*/
+
+
+/*1-Body*/
+
 body
 {
 	font-family: Helvetica, sans-serif;
@@ -10,6 +19,8 @@ body
     max-width: 1200px;
     margin: auto;
  }
+
+/*2-Main*/
 
 main
 {
@@ -53,7 +64,72 @@ main strong {
 	color: #404040;
 }
 
+.formation{
+	display: flex; 
+	
+	}
 
+.left {
+	margin-top: 20px;
+	margin-left: 50px;
+	flex: 1;
+}
+
+.right {
+	margin-top: 20px;
+	flex: 2;
+}
+
+
+
+.formation .left p {
+	margin-bottom: 250px;
+}
+
+.formation .right p {
+	margin-bottom: 70px;
+	margin-right: 40px;
+}
+
+.text2 {
+	margin-top: 105px;
+}
+
+.experience{
+	display: flex; 
+	
+	}
+
+.experience .left p {
+	margin-bottom: 250px;
+}
+
+.experience .right p {
+	margin-bottom: 70px;
+	margin-right: 40px;
+}
+
+.reco {
+	display: flex;
+	
+}
+
+.textgauche {
+	flex: 1;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.textdroite {
+	flex: 1;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+/*3-Présentation (partie gauche)*/
 
 .presentation
 {
@@ -174,70 +250,7 @@ address {
 	color: black;	
 }
 
-.formation{
-	display: flex; 
-	
-	}
-
-.left {
-	margin-top: 20px;
-	margin-left: 50px;
-	flex: 1;
-}
-
-.right {
-	margin-top: 20px;
-	flex: 2;
-}
-
-
-
-.formation .left p {
-	margin-bottom: 250px;
-}
-
-.formation .right p {
-	margin-bottom: 70px;
-	margin-right: 40px;
-}
-
-.text2 {
-	margin-top: 105px;
-}
-
-.experience{
-	display: flex; 
-	
-	}
-
-.experience .left p {
-	margin-bottom: 250px;
-}
-
-.experience .right p {
-	margin-bottom: 70px;
-	margin-right: 40px;
-}
-
-.reco {
-	display: flex;
-	
-}
-
-.textgauche {
-	flex: 1;
-	margin-left: 50px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	
-}
-
-.textdroite {
-	flex: 1;
-	margin-top: 20px;
-	margin-right: 40px;
-	margin-bottom: 20px;
-}
+/*4-Responsive*/
 
 @media all and (max-width: 1025px)
 {
