@@ -49,12 +49,6 @@ main h2
 
 }
 
-main p
-{
-	margin-left: 5%;
-	
-	
-}
 
 main span {
 	margin-left: 30px;
@@ -64,31 +58,47 @@ main strong {
 	color: #404040;
 }
 
+.dev {
+
+	margin-left: 40px;
+}
+
+article {
+
+	display: flex;
+}
+
 .formation{
-	display: flex; 
+	display: flex;
+	flex-direction: column; 
 	
 	}
 
 .left {
 	margin-top: 20px;
-	margin-left: 50px;
+	margin-left: 75px;
 	flex: 1;
 }
 
 .right {
 	margin-top: 20px;
 	flex: 2;
+	margin-right: 45px;
 }
 
+.left p {
 
+	margin-left: 30px;
+	margin-top: 0px;
+	
 
-.formation .left p {
-	margin-bottom: 250px;
 }
 
-.formation .right p {
-	margin-bottom: 70px;
-	margin-right: 40px;
+.left h4 {
+
+	margin-bottom: 0;
+	font-weight: lighter;
+
 }
 
 .text2 {
@@ -96,21 +106,15 @@ main strong {
 }
 
 .experience{
-	display: flex; 
+	display: flex;
+	flex-direction: column;
 	
 	}
 
-.experience .left p {
-	margin-bottom: 250px;
-}
-
-.experience .right p {
-	margin-bottom: 70px;
-	margin-right: 40px;
-}
 
 .reco {
 	display: flex;
+	margin-left: 20px;
 	
 }
 
@@ -165,7 +169,7 @@ address {
 
 
 
-#a-propos
+.a-propos
 {
 	flex-grow: 1;
 	
@@ -191,9 +195,8 @@ address {
 		
 }
 
-.presentation section a {
+section .presentation  a {
 
-	margin-left: 32px;
 	text-decoration: none;
 }
 
@@ -213,6 +216,11 @@ address {
 	
 
 	
+}
+
+section .contact a {
+
+	margin-left: 32px;
 }
 
 .underline
@@ -372,14 +380,6 @@ address {
 
 	margin-left: 65px;
 	
-}
-
-.formation .left p {
-	margin-bottom: 460px;
-}
-
-.experience .left p {
-	margin-bottom: 460px;
 }
 
 #image
