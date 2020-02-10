@@ -266,10 +266,7 @@ section .contact a {
     {
 		width: 100%;
 		flex-direction: column;
-		
-		
-	
-		
+				
 	}
 
 	main {
@@ -297,6 +294,7 @@ section .contact a {
 	.dev {
 		text-align: center;
 		font-size: 30px;
+		margin-left: 0;
 	}
 
 	.presentation h2 {
